@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#top-menu{
+    display: flex;
+    background-color: #D9A87E;
+    padding: 0;
+    position: relative;
+    font-family: 'Krona One', sans-serif;
+}
+#top-menu div{
+    padding: 10px;
+}
+#top-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top:28%
+}
+#top-menu a:hover{
+    color: #262626;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    min-height: 350px;
+    background-image: url("../images/cameraD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    font-family: 'Krona One', sans-serif;
+}
+header p{
+    max-width: 600px;
+    position: absolute;
+    top: 40%;
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+}
+.botao{
+    color: #ffffff;
+    padding: 10px 30px;
+    background-color: #594539;
+    font-size: .9em;
+    border-radius: 3px;
+}
+#topo a{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    top: 75%;
+}
+#topo a:hover{
+    color: #D9A87E;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #8C634A;
+    color: #ffffff;
+    font-family: 'Krona One', sans-serif;
+}
+#sobre h2{
+    color: #ffffff;
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 600px;
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+#sobre .botao{
+    color: #ffffff;
+    background-color: #594539;
+    font-size: .9em;
+    border-radius: 3px;
+}
+#sobre a{
+    text-decoration: none;
+}
+#sobre a:hover{
+    color: #D9A87E;
+}
+#servicos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+}
+#servicos h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#servicos p{
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+    padding: 10%;
+}
+#servicos img{
+    height: 30px;
+}
+#fotos {
+    padding-top: 20px;
+    width: 100%;
+    font-family: 'Krona One', sans-serif;
+}
+#fotos h2{
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.col-sm-4{
+    margin: 0;
+    padding: 0;
+}
+#contato{
+    font-family: 'Krona One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#contato h2 p{
+    color: #000000;
+}
+#contato p{
+    padding-bottom: 20px;
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+}
+#contato a{
+ color: #594539;
+ font-family: 'Itim', cursive;
+ font-size: 1.2rem;
+}
+#contato a:hover{
+    text-decoration: none;
+    color: #D9A87E;
+}
+footer{
+    text-align: center;
+    padding: 6px;
+    background-color: #8C634A;
+    color: #ffffff;
+}
+footer a{
+    text-decoration: none;
+    color: #D9A87E;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #262626;
+}
